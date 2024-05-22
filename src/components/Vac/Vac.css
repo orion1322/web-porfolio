@@ -1,0 +1,99 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+.container-job {     
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+
+}
+
+.right-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 200px;
+    height: 200px;
+    font-size: 14pt;
+}
+
+.job-box .p {
+    font-weight: 700;
+}
+
+.job-box{
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 10px;
+    width: 850px;
+    min-height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #2e1967;
+    background-color: #2e1967;
+    cursor: pointer;
+}
+
+.job-box:hover{
+    background-color: #382769;
+    box-shadow: 0 0 5px rgb(89, 21, 171);
+    color: #ffffff;
+}
+
+.job-title {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    line-height: 0.1;
+    padding-top: 10px;
+    height: 30px;
+    font-size: 16pt;
+}
+
+.p {
+    height: 30px;
+    padding-top: 10px;
+}
+
+
+.job-discription {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 20px;
+    line-height: normal;
+    font-size: 12pt;
+    background-color: #472c90;
+    border-radius: 10px;
+}
+
+.text-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.corp #img-job{
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgb(82, 43, 200);
+}
+
+.but-job {
+    border-radius: 10px;
+    width: 180px;
+    background-color: #fbfbfb;
+    cursor: pointer;
+    font-size: 14pt;
+    padding: 5px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.but-job:hover {
+    background-color: #ff0000;
+    color: #ffffff;
+}
+

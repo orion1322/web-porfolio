@@ -1,0 +1,58 @@
+.back{
+    background: url("/src/img/wall.jpg");
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content-job {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.boxes-job {
+    padding-left: 70px;
+}
+
+.filters {
+    display: flex;
+    background-color: #2e1967;
+    width: 400px;
+    height: 200px;
+    margin-right: 70px;
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-size: 14pt;
+    padding: 10px;
+    padding-top: 0;
+    box-shadow: 0 0 10px #2e1967;
+}
+
+.link-vac {
+    text-decoration: none;
+}
+
+.filter-spec {
+    text-align: left;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-radius: 10px;
+    background-color: #472c90;
+    line-height: 2;
+
+}
+
+.name-spec {
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: -10px;
+
+}
