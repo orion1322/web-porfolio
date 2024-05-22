@@ -46,6 +46,8 @@ header ul li a.active{
     background-color: #ff0000;
     text-decoration: none;
     color: #fff;
+    transition: 0.5s;
+    transform: scale(1.02);
 }
 
 .logo-head {

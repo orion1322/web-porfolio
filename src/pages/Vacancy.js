@@ -78,33 +78,39 @@ function Vacancy (){
                     <h3>Направления</h3>
                 </div>
                 <div className="filter-spec">
-                    <label>
+                    <div className="test-box">
                         <input
                             type="checkbox"
+                            id="1"
                             class="custom-checkbox"
                             checked={selectedSpecialties.includes('frontend')}
                             onChange={() => handleSpecialtyChange('frontend')}
                             />
+                        <label className="label-check" htmlFor="1"></label>
                         FrontEnd  разработчик
-                    </label>
-                    <label>
+                    </div>
+                    <div className="test-box">
                         <input
                             type="checkbox"
+                            id="2"
                             class="custom-checkbox"
                             checked={selectedSpecialties.includes('backend')}
                             onChange={() => handleSpecialtyChange('backend')}
                         />
+                        <label className="label-check" htmlFor="2"></label>
                         Backend разработчик
-                    </label>
-                    <label>
+                    </div>
+                    <div className="test-box">
                         <input
                             type="checkbox"
-                            class="custom-checkbox"
+                            id="3"
+                            className="custom-checkbox"
                             checked={selectedSpecialties.includes('fullstack')}
                             onChange={() => handleSpecialtyChange('fullstack')}
                         />
+                        <label className="label-check" htmlFor="3"></label>
                         Fullstack разработчик
-                    </label>
+                    </div>
                 </div>
             </div>
         </div>

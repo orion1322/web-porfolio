@@ -34,13 +34,27 @@
     min-height: 100px;
     line-height: 2;
     height: auto;
-    padding-top: 20px;
+    padding-top: 40px;
+    text-decoration: none;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.link-footer {
     text-decoration: none;
 }
 
 
-.link-footer {
-    text-decoration: none;
+.link-footer p{
+    background-color: #2b146d;
+    border-radius: 10px;
+}
+
+.link-footer p:hover {
+    color:#ffffff;
+    background-color: #ff0400;
+    transform: scaleX(1.03);
+    transition: 0.2s;
 }
 
 .link-footer:visited {
@@ -70,6 +84,7 @@
   .row-text {
     display: flex;
     align-items: center;
+    margin: 5px;
   }
   
   .icon-fot {
@@ -78,5 +93,23 @@
   }
 
   .icon-foter {
-    padding-bottom: 0px;
+    padding-top: 5px;
+  }
+
+  .text-foter {
+    text-align: left;
+    background-color: #2b146d;
+    width: 200px;
+    height: 6px;
+    padding-bottom: 45px;
+    padding-left: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #2b146d;
+  }
+
+  .text-foter:hover {
+    background-color: #ff0000;
+    color: rgb(255, 255, 255);
+    transition: 0.2s;
   }

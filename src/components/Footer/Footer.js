@@ -38,7 +38,7 @@ function Footer (){
                         <div className="icon-foter">
                             <img src={git} className="icon-fot"/>
                         </div>
-                        <div className="text-fot">
+                        <div className="text-foter">
                             <p>https://github.com</p>
                         </div>
                         </div>
@@ -46,7 +46,7 @@ function Footer (){
                         <div className="icon-foter">
                             <img src={phone} className="icon-fot"/>
                         </div>
-                        <div className="text-fot">
+                        <div className="text-foter">
                             <p>+7(999)-543-12-12</p>
                         </div>
                     </div>
@@ -54,7 +54,7 @@ function Footer (){
                         <div className="icon-foter">
                             <img src={tel} className="icon-fot"/>
                         </div>
-                        <div className="text-fot">
+                        <div className="text-foter">
                             <p>https://vk.com/feed</p>
                         </div>
                     </div>

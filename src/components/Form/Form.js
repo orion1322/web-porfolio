@@ -20,7 +20,7 @@ function Form (){
                                 <input type="text" name="fio" className="input-form" placeholder="ФИО"/>
                             </div>
                             <div className="input-box-form">
-                                <input type="text" name="ad" className="input-form"  placeholder="Тел"/>
+                                <input type="phone" name="ad" className="input-form"  placeholder="+7(---) -- --"/>
                             </div>
                         </div>
                         <div className="form-right">
@@ -28,7 +28,7 @@ function Form (){
                                 <input type="text" name="ad" className="input-form"  placeholder="Почта"/>
                             </div>
                             <div className="input-box-form">
-                                <input type="text" name="ad" className="input-form"  placeholder="что нибудь"/>
+                                <input type="text" name="ad" className="input-form"  placeholder="Телеграм"/>
                             </div>
                         </div>
                     </div>

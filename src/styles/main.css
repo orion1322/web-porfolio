@@ -248,6 +248,7 @@
             border: 5px solid transparent;
             transform: scale(1.03);
             box-shadow: 0 0 30px rgb(255, 255, 255);
+            transition: 0.2s;
         }
 
         .box1 .info {
@@ -277,6 +278,7 @@
             border: 5px solid transparent;
             transform: scale(1.03);
             box-shadow: 0 0 30px rgb(255, 255, 255);
+            transition: 0.2s;
         }
 
         .box2 .info {
@@ -327,10 +329,14 @@
             position: relative;
             width: 450px;
             border-radius: 50%;
-            cursor: pointer;
             background-color: #3974da;
             box-shadow: 0 0 10px rgb(178, 141, 245);
             margin-top: -50px;
+        }
+
+        section #im:hover {
+            transform: scale(1.01);
+            transition: 0.4s;
         }
         
         section .i {
@@ -340,24 +346,44 @@
             width: 480px;
             height: auto;
             border-radius: 20px;
-            border: 1px  solid snow;
-            padding-left: 30px;
+            padding: 30px;
             backdrop-filter: blur(20px);
             box-shadow: 0 0 10px rgba(243, 236, 255, 0.397);
             margin-top: -50px;
-            padding-bottom: 10px;
+            padding-bottom: 30px;
+        }
 
+        section .i:hover {
+            transition: 0.4s;
+            transform: scale(1.01);
         }
 
         .name-comp-home {
             font-size: 20pt;
             text-align: center;
-            color: #ff0000;
+            color: #ffffff;
+            background-color: #ff0000;
+            border-radius: 15px;
+            padding: 1px;
+            height: 50px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(228, 81, 27, 0.888);
         }
+
+        .name-comp-home h1 {
+            margin: 0;
+            padding-top: 6px;
+        }
+
 
         .disc-comp-home {
             font-size: 18pt;
-            line-height: 2;
+            line-height: 1;
+            padding: 10px;
+            background-color: #2f60b4;
+            box-shadow: 0 0 10px rgb(134, 85, 219);
+            border-radius: 20px;
+            padding: 2px;
         }
 
 
@@ -449,4 +475,5 @@
             color: #223;
             transform: scale(1.04);
             font-size: 28px;
+            transition: 0.2s;
         }

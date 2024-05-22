@@ -20,7 +20,7 @@
     display: flex;
     background-color: #2e1967;
     width: 400px;
-    height: 200px;
+    height: 240px;
     margin-right: 70px;
     border-radius: 10px;
     justify-content: center;
@@ -43,9 +43,7 @@
     display: flex;
     flex-direction: column;
     padding-bottom: 15px;
-    padding-top: 15px;
-    border-radius: 10px;
-    background-color: #472c90;
+    padding-top: 10px;
     line-height: 2;
 
 }
@@ -56,3 +54,48 @@
     margin-bottom: -10px;
 
 }
+
+.test-box {
+    text-align: center;
+    display: flex;
+    justify-content: start;
+    background-color: #5f48b0;
+    margin-top: 10px;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+  
+.custom-checkbox {    
+    display: none;
+}
+
+.label-check {
+    margin-top: 6px;
+    padding-right: 2px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.custom-checkbox + .label-check {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: #ccc;
+    border-radius: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.custom-checkbox:checked + .label-check {
+    background-color: #ff0000;
+}
+
+
+
+
+  
+
+
+  
+
+

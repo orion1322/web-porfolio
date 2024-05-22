@@ -39,6 +39,7 @@
     background-color: #382769;
     box-shadow: 0 0 5px rgb(89, 21, 171);
     color: #ffffff;
+    transition: 0.2s;
 }
 
 .job-title {
@@ -95,5 +96,7 @@
 .but-job:hover {
     background-color: #ff0000;
     color: #ffffff;
+    transition: 0.3s;
+    transform: scale(1.03);
 }
 

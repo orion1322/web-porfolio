@@ -109,6 +109,8 @@
  .btn-form:hover {
     background-color: #ff1616;
     color:rgb(255, 255, 255);
+    transition: 0.4s;
+    transform: scale(1.03);
  }
 
  .input-box-form {
